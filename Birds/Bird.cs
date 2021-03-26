@@ -15,6 +15,7 @@ namespace Birds
         private string image;
         private string sound;
 
+        public string id { get { return ID; } set { ID = value; } }
         public string Name {get { return name; } set { name = value; } }
         public string Family { get { return family; } set { family = value; } }
         public string Order { get { return order; } set { order = value; } }

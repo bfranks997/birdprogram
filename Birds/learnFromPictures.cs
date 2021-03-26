@@ -13,9 +13,10 @@ namespace Birds
     public partial class learnFromPictures : Form
     {
         int n = 0;
-        List<Bird> birds = new List<Bird> { };
-        string birdName = birds[0].Name;
-        string birdCall = birds[0].Sound;
+        Bird[] birdArray = new Bird[200];
+
+        string birdName = "Click Continue to begin";
+
         public learnFromPictures()
         {
             InitializeComponent();
@@ -23,7 +24,10 @@ namespace Birds
 
         private void learnFromPictures_Load(object sender, EventArgs e)
         {
-            reset();
+            Continue.Visible = true;
+            submit.Visible = false;
+            userInput.Enabled = false;
+            Continue.Text = "Begin";
         }
 
         private void submit_Click(object sender, EventArgs e)
@@ -35,16 +39,20 @@ namespace Birds
         {
             Continue.Visible = true;
             submit.Visible = false;
-            //label1.Text = birdname;
+            userInput.Enabled = false;
+            Continue.Text = "Continue";
+            label1.Text = "Bird Name";
 
         }
 
         private void reset()
-        {
+        {          
+            userInput.Enabled = true;
             submit.Visible = true;
             Continue.Visible = false;
             userInput.Text = "";
             label1.Text = "";
+            nextBird();
         }
 
         private void Continue_Click(object sender, EventArgs e)
@@ -54,7 +62,7 @@ namespace Birds
 
         private void nextBird()
         {
-            birdImage.Image = Image.FromFile(birds[1].Image);
+         //   birdImage.Image = Image.FromFile(birds[1].Image);
         }
     }
 }
