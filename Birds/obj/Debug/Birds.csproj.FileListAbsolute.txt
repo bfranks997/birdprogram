@@ -1,0 +1,12 @@
+C:\Users\bradl\source\repos\Birds\Birds\bin\Debug\Birds.exe.config
+C:\Users\bradl\source\repos\Birds\Birds\bin\Debug\Birds.exe
+C:\Users\bradl\source\repos\Birds\Birds\bin\Debug\Birds.pdb
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.csprojAssemblyReference.cache
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.mainMenu.resources
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.Properties.Resources.resources
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.csproj.GenerateResource.cache
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.csproj.CoreCompileInputs.cache
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.exe
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.pdb
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.learnFromCalls.resources
+C:\Users\bradl\source\repos\Birds\Birds\obj\Debug\Birds.learnFromPictures.resources
